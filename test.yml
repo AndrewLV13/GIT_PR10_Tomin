@@ -1,0 +1,8 @@
+name: Pr10_Tomin
+on: push
+jobs:
+  startProject:
+    runs-on: windows-latest
+    steps:
+      - name: step1
+        run: dotnet run
