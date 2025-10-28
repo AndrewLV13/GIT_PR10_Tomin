@@ -8,5 +8,4 @@ jobs:
         uses: actions/chekout@v5.0.0
         
       - name: step2
-        run: dotnet run --project ./Tomin.csproj
-        
+        run: dotnet run --project ./test/Tomin.csproj
