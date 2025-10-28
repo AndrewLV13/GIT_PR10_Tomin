@@ -4,5 +4,8 @@ jobs:
   startProject:
     runs-on: windows-latest
     steps:
-      - name: step1
-        run: dotnet run
+      - name: Chekout
+        uses: actions/chekout@v5.0.0
+        
+      - name: step2
+        run: dotnet run --project ./Tomin.csproj
